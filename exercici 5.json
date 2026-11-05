@@ -1,0 +1,55 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "títol": "Valoració del llibre 'Siete Pecados' de IJ García",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Com valoraries la trama general de la novel·la?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Excel·lent",
+            "Molt bona",
+            "Correcta",
+            "Deficient",
+            "Horrible" 
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quin es el motiu de la teva valoració?",
+          "tipus": "text_lliure"
+        }
+        {
+          "ordre": 3,
+          "text": "Quin és el personatge que més t'agrada i per què?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "títol": "Opinió sobre l'utilització en augment de la IA",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Et sembla que la utilització de la IA es exagerada?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Sí",
+            "No",
+            "No ho sé"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Quins creus que son els possibles problemes (económics, laborals, mediambientals i/o intelectuals que pot generar aquesta utilització a la llarga?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
